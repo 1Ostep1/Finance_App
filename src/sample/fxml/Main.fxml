@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="500.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.page">
+    <children>
+        <Button fx:id="quitBtn" layoutX="407.0" layoutY="341.0" mnemonicParsing="false" onAction="#Quit" prefHeight="29.0" prefWidth="37.0" style="-fx-background-color: #DDB891;" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <graphic>
+            <ImageView fitHeight="19.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Quit.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+        <Line endX="391.0" endY="40.0" layoutX="107.0" layoutY="60.0" startX="-108.0" startY="40.0" AnchorPane.bottomAnchor="289.5" AnchorPane.leftAnchor="-1.5" AnchorPane.rightAnchor="1.5" AnchorPane.topAnchor="99.5" />
+        <ImageView fitHeight="100.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <image>
+                <Image url="@../Images/Wallet.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="115.0" layoutY="18.0" prefHeight="64.0" prefWidth="365.0" text="Personal Finance" textFill="#ddb891" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="18.0">
+            <font>
+                <Font name="Apple Chancery" size="43.0" />
+            </font>
+        </Label>
+        <Label layoutX="8.0" layoutY="364.0" prefHeight="27.0" prefWidth="181.0" text="©Ramazan 2020,10" textFill="#ddb891" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="8.0">
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+        </Label>
+      <TextField fx:id="BalanceEditor" alignment="CENTER" layoutX="14.0" layoutY="112.0" prefHeight="38.0" prefWidth="136.0" promptText="e.g 50" style="-fx-border-color: white;">
+         <font>
+            <Font name="AppleGothic Regular" size="12.0" />
+         </font>
+      </TextField>
+      <Button fx:id="foodBtn" layoutX="19.0" layoutY="180.0" mnemonicParsing="false" onAction="#Food" prefHeight="27.0" prefWidth="63.0" style="-fx-background-color: #DDB891;" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Food.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="descriptionBtn" layoutX="150.0" layoutY="112.0" mnemonicParsing="false" onAction="#Clear" prefHeight="38.0" prefWidth="51.0" style="-fx-background-color: white;" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Eraser.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <tooltip>
+            <Tooltip contentDisplay="CENTER" text="Очистить информацию">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Tooltip>
+         </tooltip>
+      </Button>
+      <Button fx:id="carBtn" layoutX="115.0" layoutY="180.0" mnemonicParsing="false" onAction="#Car" prefHeight="27.0" prefWidth="63.0" style="-fx-background-color: #DDB891;" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/car.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="refitBtn" layoutX="206.0" layoutY="180.0" mnemonicParsing="false" onAction="#Refit" prefHeight="27.0" prefWidth="63.0" style="-fx-background-color: #DDB891;" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/screwdriver.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="enterBtn" layoutX="298.0" layoutY="180.0" mnemonicParsing="false" onAction="#Entertainment" prefHeight="27.0" prefWidth="63.0" style="-fx-background-color: #DDB891;" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Enteetaiment.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="sportBtn" layoutX="385.0" layoutY="180.0" mnemonicParsing="false" onAction="#Sport" prefHeight="27.0" prefWidth="63.0" style="-fx-background-color: #DDB891;" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/sport.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="clothesBtn" layoutX="19.0" layoutY="274.0" mnemonicParsing="false" onAction="#Clothes" prefHeight="27.0" prefWidth="63.0" style="-fx-background-color: #DDB891;" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/clothes.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="utilitiesBtn" layoutX="115.0" layoutY="274.0" mnemonicParsing="false" onAction="#Utilities" prefHeight="27.0" prefWidth="63.0" style="-fx-background-color: #DDB891;" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/water-heater.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="strollerBtn" layoutX="206.0" layoutY="274.0" mnemonicParsing="false" onAction="#Kids" prefHeight="27.0" prefWidth="63.0" style="-fx-background-color: #DDB891;" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/stroller.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="homeBtn" layoutX="298.0" layoutY="274.0" mnemonicParsing="false" onAction="#Home" prefHeight="27.0" prefWidth="63.0" style="-fx-background-color: #DDB891;" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/home.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="otherBtn" layoutX="385.0" layoutY="274.0" mnemonicParsing="false" onAction="#Others" prefHeight="27.0" prefWidth="63.0" style="-fx-background-color: #DDB891;" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/cash-in-hand.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label alignment="CENTER" layoutX="19.0" layoutY="241.0" prefHeight="17.0" prefWidth="63.0" style="-fx-background-color: #DDB891 #DDB891;" text="Food" textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="115.0" layoutY="241.0" prefHeight="17.0" prefWidth="63.0" style="-fx-background-color: #DDB891 #DDB891;" text="Car" textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="202.0" layoutY="241.0" prefHeight="17.0" prefWidth="63.0" style="-fx-background-color: #DDB891 #DDB891;" text="Refit" textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="19.0" layoutY="331.0" prefHeight="17.0" prefWidth="63.0" style="-fx-background-color: #DDB891 #DDB891;" text="Clothes" textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="115.0" layoutY="331.0" prefHeight="17.0" prefWidth="63.0" style="-fx-background-color: #DDB891 #DDB891;" text="Utilities" textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="206.0" layoutY="331.0" prefHeight="17.0" prefWidth="63.0" style="-fx-background-color: #DDB891 #DDB891;" text="Kids" textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="298.0" layoutY="241.0" prefHeight="17.0" prefWidth="63.0" style="-fx-background-color: #DDB891 #DDB891;" text="Entertainment" textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Bold" size="9.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="385.0" layoutY="241.0" prefHeight="17.0" prefWidth="63.0" style="-fx-background-color: #DDB891 #DDB891;" text="Sport" textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="298.0" layoutY="331.0" prefHeight="17.0" prefWidth="63.0" style="-fx-background-color: #DDB891 #DDB891;" text="Home" textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="385.0" layoutY="331.0" prefHeight="17.0" prefWidth="63.0" style="-fx-background-color: #DDB891 #DDB891;" text="Others" textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="206.0" layoutY="117.0" prefHeight="27.0" prefWidth="63.0" style="-fx-background-color: #DDB891 #DDB891;" text="Charges:" textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="Bal" alignment="CENTER" layoutX="268.0" layoutY="117.0" prefHeight="27.0" prefWidth="147.0" style="-fx-background-color: #DDB891 #DDB891 #DDB891 #DDB891;" textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="curr" alignment="CENTER" layoutX="410.0" layoutY="117.0" prefHeight="27.0" prefWidth="36.0" style="-fx-background-color: #DDB891 #DDB891 #DDB891 #DDB891;" text="\$" textFill="#fcfcfc">
+         <font>
+            <Font name="Avenir Next Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="infoBtn" layoutX="425.0" layoutY="361.0" mnemonicParsing="false" onAction="#Info" prefHeight="29.0" prefWidth="36.0" style="-fx-background-color: #DDB891;" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="38.0">
+         <graphic>
+            <ImageView fitHeight="19.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/info.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label fx:id="NameLbl" alignment="CENTER" layoutX="18.0" layoutY="150.0" prefHeight="20.0" prefWidth="128.0" style="-fx-background-color: #DDB891 #DDB891;" textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="saveBtn" layoutX="387.0" layoutY="361.0" mnemonicParsing="false" onAction="#save" prefHeight="29.0" prefWidth="36.0" style="-fx-background-color: #DDB891;" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="19.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Save.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="349.0" layoutY="361.0" mnemonicParsing="false" onAction="#show" prefHeight="29.0" prefWidth="36.0" style="-fx-background-color: #DDB891;" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="19.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/show.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+    </children>
+</AnchorPane>

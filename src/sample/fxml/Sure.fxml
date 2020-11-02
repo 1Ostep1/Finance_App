@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="190.0" prefWidth="288.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Sure">
+    <children>
+        <Button layoutX="60.0" layoutY="118.0" mnemonicParsing="false" onAction="#Yes" prefHeight="27.0" prefWidth="73.0" style="-fx-background-color: #DDB891;" text="Yes" textFill="WHITE" />
+        <Label fx:id="Error" alignment="CENTER" layoutX="172.0" layoutY="278.0" prefHeight="27.0" prefWidth="197.0" textFill="#e81b1b">
+            <font>
+                <Font name="Arial" size="15.0" />
+            </font>
+        </Label>
+        <Button layoutX="162.0" layoutY="118.0" mnemonicParsing="false" onAction="#Cancel" prefHeight="27.0" prefWidth="73.0" style="-fx-background-color: #DDB891;" text="Cansel" textFill="WHITE" />
+      <Label alignment="CENTER" layoutX="30.0" layoutY="53.0" prefHeight="42.0" prefWidth="229.0" style="-fx-background-color: #DDB891 #DDB891;" text="Delete this info?" textFill="WHITE" />
+    </children>
+</AnchorPane>
