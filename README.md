@@ -1,6 +1,6 @@
 Personal Finance OOP project (2020,1 semester)created by Ramazan Iusupov
 
-Here you can take into account your expeses.
+Here you can take into account your expenses.
 
 <img width="500" alt="Screen Shot 2020-11-02 at 17 06 43" src="https://user-images.githubusercontent.com/60435025/97862798-2917e680-1d30-11eb-9ac2-8aacdaa0575a.png">
 <img width="500" alt="Screen Shot 2020-11-02 at 17 06 43" src="https://user-images.githubusercontent.com/60435025/97862810-2c12d700-1d30-11eb-9bad-03f6826b423c.png">
